@@ -1,0 +1,28 @@
+body {background-color: azure}
+p {color: black; font-family: "Comic Sans MS"; font-size: 150%; border: 30px crimson}
+.right {color: black}
+h1 {color: red}
+ul {color: black; font-family: "Comic Sans MS"; font-size: 150%}
+a {color: black; padding: 15px 15px 15px 15px}
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: static;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: white;
+    color: black;
+}
